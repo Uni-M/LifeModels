@@ -1,9 +1,9 @@
-ru\life\template\impl\oscillator\Pulsar.class
 ru\life\template\Colony.class
+ru\life\template\type\Oscillator.class
+ru\life\constant\Size.class
+ru\life\template\impl\oscillator\KoksGalaxy.class
+ru\life\template\impl\oscillator\Pulsar.class
 ru\life\template\impl\oscillator\Octagon.class
 ru\life\template\impl\gun\GosperGliderGun.class
 ru\life\template\impl\gun\SimkinGliderGun.class
-ru\life\template\type\Oscillator.class
 ru\life\template\type\Gun.class
-ru\life\constant\Size.class
-ru\life\template\impl\oscillator\KoksGalaxy.class

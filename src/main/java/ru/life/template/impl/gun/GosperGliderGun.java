@@ -78,7 +78,7 @@ public class GosperGliderGun extends Gun {
 
     @Override
     public JLabel getLabel() throws IOException {
-        ImageIcon icon = new ImageIcon(Octagon.class.getClassLoader().getResource("octagon.gif"));
+        ImageIcon icon = new ImageIcon(Octagon.class.getClassLoader().getResource("gosper_gun.gif"));
         return new JLabel(icon);
     }
 }

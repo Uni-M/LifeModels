@@ -87,7 +87,7 @@ public class SimkinGliderGun extends Gun {
 
     @Override
     public JLabel getLabel() throws IOException {
-        ImageIcon icon = new ImageIcon(Octagon.class.getClassLoader().getResource("octagon.gif"));
+        ImageIcon icon = new ImageIcon(Octagon.class.getClassLoader().getResource("simkin_gun.gif"));
         return new JLabel(icon);
     }
 }
