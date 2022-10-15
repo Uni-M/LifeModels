@@ -1,5 +1,9 @@
 D:\JavaProjects\liveLib\src\main\java\ru\life\constant\Size.java
-D:\JavaProjects\liveLib\src\main\java\ru\life\template\Octagon.java
-D:\JavaProjects\liveLib\src\main\java\ru\life\template\Pulsar.java
-D:\JavaProjects\liveLib\src\main\java\ru\life\Oscillator.java
-D:\JavaProjects\liveLib\src\main\java\ru\life\template\KoksGalaxy.java
+D:\JavaProjects\liveLib\src\main\java\ru\life\template\impl\oscillator\Pulsar.java
+D:\JavaProjects\liveLib\src\main\java\ru\life\template\impl\gun\GosperGliderGun.java
+D:\JavaProjects\liveLib\src\main\java\ru\life\template\impl\gun\SimkinGliderGun.java
+D:\JavaProjects\liveLib\src\main\java\ru\life\template\type\Gun.java
+D:\JavaProjects\liveLib\src\main\java\ru\life\template\type\Oscillator.java
+D:\JavaProjects\liveLib\src\main\java\ru\life\template\Colony.java
+D:\JavaProjects\liveLib\src\main\java\ru\life\template\impl\oscillator\Octagon.java
+D:\JavaProjects\liveLib\src\main\java\ru\life\template\impl\oscillator\KoksGalaxy.java

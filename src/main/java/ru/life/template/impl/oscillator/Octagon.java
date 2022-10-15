@@ -1,8 +1,8 @@
-package ru.life.template;
+package ru.life.template.impl.oscillator;
 
 import lombok.Getter;
 import org.springframework.stereotype.Component;
-import ru.life.Oscillator;
+import ru.life.template.type.Oscillator;
 
 import javax.swing.*;
 

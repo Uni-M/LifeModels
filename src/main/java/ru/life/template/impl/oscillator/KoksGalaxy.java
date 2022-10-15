@@ -1,11 +1,10 @@
-package ru.life.template;
+package ru.life.template.impl.oscillator;
 
 import lombok.Getter;
 import org.springframework.stereotype.Component;
-import ru.life.Oscillator;
+import ru.life.template.type.Oscillator;
 
 import javax.swing.*;
-import java.net.MalformedURLException;
 
 import static ru.life.constant.Size.DOT_SIZE;
 import static ru.life.constant.Size.SIZE_HEIGHT;
