@@ -1,7 +1,6 @@
 package ru.life.template;
 
 import javax.swing.*;
-import java.io.IOException;
 
 public interface Colony {
 
@@ -9,5 +8,5 @@ public interface Colony {
 
     boolean[][] create();
 
-    JLabel getLabel() throws IOException;
+    JLabel getLabel();
 }

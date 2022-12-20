@@ -68,8 +68,6 @@ public class KoksGalaxy extends Oscillator {
 
     @Override
     public JLabel getLabel() {
-//        URL url = new URL("https://upload.wikimedia.org/wikipedia/commons/2/2a/Oscilador8periodos.gif");
-//        return new JLabel(new ImageIcon(url));
         ImageIcon icon = new ImageIcon(KoksGalaxy.class.getClassLoader().getResource("koks_galaxy.gif"));
         return new JLabel(icon);
     }

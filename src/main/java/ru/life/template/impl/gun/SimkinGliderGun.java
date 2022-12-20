@@ -2,11 +2,9 @@ package ru.life.template.impl.gun;
 
 import lombok.Getter;
 import org.springframework.stereotype.Component;
-import ru.life.template.impl.oscillator.Octagon;
 import ru.life.template.type.Gun;
 
 import javax.swing.*;
-import java.io.IOException;
 
 import static ru.life.constant.Size.DOT_SIZE;
 import static ru.life.constant.Size.SIZE_HEIGHT;
@@ -86,8 +84,8 @@ public class SimkinGliderGun extends Gun {
     }
 
     @Override
-    public JLabel getLabel() throws IOException {
-        ImageIcon icon = new ImageIcon(Octagon.class.getClassLoader().getResource("simkin_gun.gif"));
+    public JLabel getLabel() {
+        ImageIcon icon = new ImageIcon(SimkinGliderGun.class.getClassLoader().getResource("simkin_gun.gif"));
         return new JLabel(icon);
     }
 }
